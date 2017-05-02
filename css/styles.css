@@ -12,39 +12,46 @@ body {
     background-color: #f6f5f3;
     padding: 0 20px 0 20px;
     font-family: 'Futura';
-
+    color : #003680;
     /*border: red 1px solid;*/
     }
 
-.bandeauLogo {
+.bandeau-logo {
     height: 95px;
 
     /*border: green 1px solid;*/
     }
 
-.floatLeft, .titreMonCompte { 
+.float-left, .titre-compte { 
     float: left;
     }
 
-.zoneMonCompte { 
+.zone-compte { 
     float: right;
     padding-top: 13px;
     }
 
-.zoneMonCompte img {
+.zone-compte img {
     padding-top: 14px;
     }
 
-.zoneMonCompte img:nth-child(5) {
+.zone-compte img:nth-child(5) {
     margin-left: 25px;    
     }
 
-.titreMonCompte {
-    color: #003680;
+.titre-compte {
     font-size: 140%;
     margin-right: 10px;
     margin-left: 10px;
 	}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a38724;
+}
 
 .clear {
     clear: both;
@@ -77,11 +84,55 @@ nav ul li:first-child {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
     }
 
 nav ul li:hover {
     background-color: #003680;
 
     }
-    
+
+/***** SECTION - ARTICLE *****/
+
+section {
+ 
+    }
+
+article {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    }
+
+/***** FOOTER *****/
+
+footer {
+ margin-left: 20px;
+ margin-right: 20px;
+    }
+
+.footer-colonne {
+    width : 25%;
+    float: left
+    }
+
+.champs {
+    height: 25px;
+    width: 225px;
+    border: 1px solid #003680;
+}
+
+.champs, footer img:last-child, input:last-child {
+    vertical-align: middle;
+}
+
+input:last-child {
+   background:url('../img/mail.gif');
+   height: 32px;
+   width: 44px;
+    }
+
+/*input:last-child:hover {
+   background:url('../img/mail.gif'); **** A faire *
+    }**/

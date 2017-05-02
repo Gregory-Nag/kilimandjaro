@@ -12,16 +12,16 @@
 </head>
 <body>
     <header>
-        <div class="bandeauLogo">
-            <img src="img/logo-cafe-kilimandjaro.gif" alt="Logo Café Kilimandjaro" title="Logo Café Kilimandjaro" />
+        <div class="bandeau-logo">
+            <a href="index.html"><img src="img/logo-cafe-kilimandjaro.gif" alt="Logo Café Kilimandjaro" title="Accueil Café Kilimandjaro" /></a>
             
-            <div class="zoneMonCompte">        
-                <p class="titreMonCompte">Mon compte</p>
-                <img class="floatLeft" src="img/mon-compte.gif" alt="Mon compte" title="Mon compte" /> 
-                <p class="titreMonCompte">Mon panier</p>
+            <div class="zone-compte">        
+                <p class="titre-compte"><a href="#">Mon compte</a></p>
+                <img class="float-left" src="img/mon-compte.gif" alt="Mon compte" title="Mon compte" /> 
+                <p class="titre-compte"><a href="#">Mon panier</a></p>
                 <img src="img/mon-panier.gif" alt="Mon panier" title="Mon panier" /> 
-                <img src="img/france.gif" alt="Français" title="Français" />
-                <img src="img/english.gif" alt="English" title="English" />
+                <a href="#"><img src="img/france.gif" alt="Français" title="Français" onmouseover="this.src='img/france-on.gif'" onmouseout="this.src='img/france.gif'"/></a>
+                <a href="#"><img src="img/english.gif" alt="English" title="English" onmouseover="this.src='img/english-on.gif'" onmouseout="this.src='img/english.gif'"/></a>
             </div>
         </div>
         <div class="clear"></div>
@@ -36,11 +36,78 @@
         </nav>        
     </header>
     
+    <main>
+        <section>
+            <h1>Pourquoi choisir café Kilimandjaro ?</h1>
+            <article>
+                <h2>Un café unique</h2>
+                <p>Nous proposons une sélection restreinte de cafés grains
+                et moulus pour ne pas perdre de temps à choisir le meilleur café. 
+                Faites confiance en notre sélection. </p>
+            </article>
+            <article>
+                <h2>Des prix maitrisés</h2>
+                <p>Grâce aux relations étroites avec nos fournisseurs nous
+                proposons des prix adaptés aux petites entreprises. Profitez
+                des prix de gros adaptés aux professionnels. 
+                Tout le monde à le droit de boire du bon café au bureau !  </p>
+            </article>
+            <article>
+                <h2>Un Paiement en Ligne Sécurisé</h2>
+                <p>La banque CIC assure vos paiements en ligne grâce à la
+                technologie 3D secure. Si vous préférez, validez votre sélection
+                de cafés et thés simplement avec votre compte PayPal !</p>
+            </article>
+        </section>
+ 
+         <section>
+            <h1></h1>
+            <article>
+                <h2></h2>
+                <p></p>
+            </article>
+        </section>
+         
+                 <section>
+            <h1></h1>
+            <article>
+                <h2></h2>
+                <p></p>
+            </article>
+        </section>
+
+    </main>    
 
     
-    
+    <div class="clear"></div>    
     <footer>
-        
+        <div class="footer-colonne">
+            <h3>Nous rendre visite</h3>
+            <p>Boutique Café Kilimandjaro<br>
+            27 Boulevard Poissonnière<br>
+            75010 Paris</p>
+        </div>
+        <div class="footer-colonne">
+            <h3>Contactez-nous</h3>
+            <p>Tel. : 01.01.02.03.04<br>
+            <a href="mailto:contact@cafe-kilimandjaro.com">contact@cafe-kilimandjaro.com</a></p>            
+        </div>
+        <div class="footer-colonne">
+            <h3>Nous rendre visite</h3>
+            <p><a href="#">Mentions légales</a><br>
+            <a href="#">CGV</a><br>            
+            <a href="#">Informations Livraisons</a></p>     
+        </div>
+        <div class="footer-colonne">
+            <h3>Nous rendre visite</h3>
+            <p><a href="#"><img src="img/facebook.gif" alt="Facebook" title="Facebook" /></a>            
+            <a href="#"><img src="img/twitter.gif" alt="Twitter" title="Twitter" /></a>
+            <a href="#"><img src="img/googleplus.gif" alt="Google +" title="Google +" /></a> </p> 
+            <form action="#" method="post">
+                <input type="mail" class="champs" name="newsletter" id="newsletter" placeholder=" Abonnement newsletter">
+                <input type="submit" value="">  
+            </form>
+        </div>
     </footer>
     
 </body>
