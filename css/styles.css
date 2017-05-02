@@ -79,5 +79,9 @@ nav ul li a {
     color: white;
     text-decoration: none;
     }
-    
+
+nav ul li:hover {
+    background-color: #003680;
+
+    }
     
