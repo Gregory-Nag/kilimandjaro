@@ -74,7 +74,6 @@ nav ul li {
     font-size: 140%;
     margin-left: 2px;
     background-color: #a38724;
-
     /*border: 1px solid red;*/
     }
     
@@ -92,17 +91,89 @@ nav ul li:hover {
     }
 
 /***** SECTION - ARTICLE *****/
-
-section {
- 
+    
+h1 {
+    font-family: Arial;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 28px;
     }
 
+h2 {
+    color: #785919;   /* or couleur 2 du Guide des styles */
+    font-weight: bold;
+    }
+    
 article {
-    width: 30%;
+    width: 370px;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+    }
 
+
+article:nth-child(3) {
+    margin-left: 105px; /* 125px marge L&R avec colonne centrale*/
+    margin-right: 105px;
+    }
+
+.titre-shira, .titre-mawanzi, .titre-kibo {
+    color: #a38724;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 500;
+    }
+
+.titre-mawanzi {
+    color: #785919;    
+    }
+
+.titre-kibo {
+    color: #003680;
+}
+
+.photo-produit {
+    height: 175px;
+    text-align: center;
+    }
+
+.photo-produit img {
+    margin-top: 40px;
+    }
+
+.prix-unite {
+
+    font-size: 28px;
+    }
+    
+.prix-centimes {
+    font-size: 60%;
+    }
+
+.bouton-ajouter {
+    float: right
+    }
+
+.encadre-blog {
+    border: 1px solid;
+    margin: 0 18px;
+    }
+
+.informations-blog {
+    height: 120px;
+    }
+
+.date-blog {
+    float: left;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    font-size: 20px;
+    }
+    
+.presentation-blog {
+    padding-left: 90px;
+    padding-right: 10px;
+    font-size: 20px;
     }
 
 /***** FOOTER *****/
@@ -110,6 +181,7 @@ article {
 footer {
  margin-left: 20px;
  margin-right: 20px;
+ margin-top: 40px;
     }
 
 .footer-colonne {
