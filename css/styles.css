@@ -87,7 +87,11 @@ nav ul li a {
 
 nav ul li:hover {
     background-color: #003680;
-
+    }
+    
+.carrousel {
+    margin-left: -20px;
+    margin-top: 15px;
     }
 
 /***** SECTION - ARTICLE *****/
