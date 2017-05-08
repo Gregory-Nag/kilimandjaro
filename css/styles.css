@@ -18,7 +18,6 @@ body {
 
 .bandeau-logo {
     height: 95px;
-
     /*border: green 1px solid;*/
     }
 
@@ -53,9 +52,16 @@ a:hover {
     color: #a38724;
 }
 
-.clear {
+main section::after {
+    content: "";
+    display: table; 
     clear: both;
     }
+    
+.center {
+    text-align: center;
+    }
+    
 /***** NAV  *****/
 
 nav ul {
@@ -115,17 +121,19 @@ article {
     margin-right: 20px;
     }
 
-
 article:nth-child(3) {
     margin-left: 105px; /* 125px marge L&R avec colonne centrale*/
     margin-right: 105px;
     }
 
 .titre-shira, .titre-mawanzi, .titre-kibo {
-    color: #a38724;
     font-family: Arial;
     font-size: 28px;
     font-weight: 500;
+    }
+
+.titre-shira {
+    color: #a38724;   
     }
 
 .titre-mawanzi {
@@ -212,3 +220,31 @@ input:last-child {
 /*input:last-child:hover {
    background:url('../img/mail.gif'); **** A faire *
     }**/
+
+/***** FICHE PRODUIT *****/
+
+#product hr {
+    border: 1px solid #a38724;
+    width: 900px;
+    margin-bottom: 20px;
+    }
+
+.description {
+    min-height: 394px;
+    width: 877px;
+    border: 1px solid #003680;
+    margin-left: 20px;
+    padding: 30px;
+    float: left;
+    background-color: white;
+    }
+    
+.stock {
+    vertical-align: middle;
+    }
+   
+.titre-stock {
+    color: #a38724;
+    padding-top: 2px;
+    padding-left: 40px;
+    }
