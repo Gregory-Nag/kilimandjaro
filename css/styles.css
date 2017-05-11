@@ -211,7 +211,7 @@ footer {
     vertical-align: middle;
 }
 
-input:last-child {
+.footer-colonne input:last-child {
    background:url('../img/mail.gif');
    height: 32px;
    width: 44px;
@@ -241,10 +241,167 @@ input:last-child {
     
 .stock {
     vertical-align: middle;
+    margin-top: 15px;
     }
    
 .titre-stock {
     color: #a38724;
-    padding-top: 2px;
+    padding-top: 17px;
     padding-left: 40px;
+    }
+
+#notations .entete {
+    margin-top: 20px;    
+    }
+
+.encadre-notation {
+    border: 1px solid;
+    width: 434px;
+    height: 183px;
+    background-color: white;
+    }
+    
+#notations article {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    }
+    
+#notations article:nth-child(3) {   
+    margin-left: 46px;
+    margin-right: 46px;
+    }
+
+#notations article:last-child {   
+    text-align: center;
+    }
+
+#notations article:last-child p {   
+    margin-bottom: 0;
+    }
+    
+.titre-notation {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    /* margin: 0; */
+    font-size: 110%;    
+    }
+
+.titre-notation:first-child {
+    padding-top: 10px;
+    }
+
+.barre-notation {
+    position: relative;
+    float: right;
+    right: 20px;
+    margin-top: 12px;
+    }
+    
+.img-notation {
+    position: relative;
+    /* left: 30px; */
+    /* top: 8px; */
+    float: right;
+    margin-right: 20px;
+    }
+
+.titre-aromatique {
+    color: #a38724;   
+    font-size : 110%;
+}
+
+.bouton-moins, .bouton-plus{
+    width: 27px;
+    height: 35px;
+    float: left;
+    background-image: url('../img/panier-moins.gif');
+}
+
+.bouton-plus {
+    background-image: url('../img/panier-plus.gif');   
+    }
+    
+.bouton-moins:hover, .bouton-plus:hover  {
+    width: 27px;
+    height: 35px;
+    background-image: url('../img/panier-moins-on.gif');
+    cursor: pointer;
+}
+
+.bouton-plus:hover  {
+    background-image: url('../img/panier-plus-on.gif');
+}
+
+.bouton-acheter {
+    width: 182px;
+    height: 60px;
+    float: right;
+    margin-top: -65px;
+    background-image: url('../img/bouton-acheter-off.gif');   
+    }
+
+.bouton-acheter:hover {
+    background-image: url('../img/bouton-acheter-on.gif');
+    cursor: pointer;
+    }
+
+#avis {
+    width: 836px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation-commentaire {
+    text-align: left;
+    }
+
+#avis article {
+    border: solid 1px;
+    width: 834px;
+    min-height: 100px;
+    margin-left: 0; /* j'annule margin-left défini avant*/
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    }
+
+#avis .date{
+    float: right;
+    }
+
+.avis-client {
+    padding-top: 8px;
+    margin-left: 10px;   
+    }
+    
+.zone-quantity {
+    margin-top: 45px;    
+    }
+
+.zone-quantity input {
+    float: left;
+    width: 60px;
+    height: 29px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+.poids-prix {
+    width: 500px;    
+    }
+
+.information-poids {
+    margin-left: 180px;
+    margin-top: 17px;
+    width: 500px;
+    }
+    
+.price-product {
+    border: 1px solid #a38724;
+    padding: 9px 26px;
+    margin-left: 40px;
+    font-size: 150%;
     }
