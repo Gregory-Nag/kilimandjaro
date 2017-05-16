@@ -1,0 +1,108 @@
+/***** Déclaration des variables *****/
+
+@gold-color : #;
+@blue-color : #003680;
+@grey-color : #f6f5f3;
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaStd-Light.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+
+/***** Génériques *****/
+
+
+body {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f5f3;
+    font-family: 'Futura';
+    color: #003680;
+    }
+
+h1 {
+    padding-left: 48px;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 28px;
+    }
+
+h2 {
+    color: #785919;
+    font-weight: bold;
+    font-size: 1.6em;
+    }
+
+p {
+    font-size: 1.2em;        
+    }
+
+.row {
+    width: 1440px;
+    margin: 0;
+    padding: 0 20px 0 20px;d
+    }
+
+section .row:last-child,
+section .row:last-child {
+    background-color: white;
+    }
+
+section article:nth-child(1),
+section article:nth-child(2),
+section article:nth-child(3){   
+    padding-left:  50px;
+    padding-right: 50px;
+    }
+
+.photo-produit {
+    padding: 30px 0;
+    text-align: center;
+    border: 1px solid #003680;
+    }
+    
+.bouton-ajouter {
+    float: right;
+    margin-top: -5px;
+    }
+
+hr {
+    border: 1px solid #003680;
+    }
+
+.prix-unite {
+    font-size: 2em;    
+    }
+
+.prix-centimes {
+    font-size: 70%;   
+    }
+
+.date-blog {
+    margin-top: 10px;
+    float: left;
+    width : 30%;
+    border-right: 1px solid #003680;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+.presentation-blog {
+    padding:  10px;
+
+    }
+
+#blog article {
+    /*border: 1px solid #003680;   */  
+    }
+/****** <768 ******/
+
+@media screen and (max-width: 768px) {
+    body, .row {
+        width: 768px;
+    }
+    
+}
